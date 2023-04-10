@@ -1,10 +1,10 @@
 # JC-Price-Lab
 ## Instructions for Separation Code:
-### If doing Peptide separation:\
+### If doing Peptide separation:
 1. Obtain the vials file (FRAC reg from the HPLC export), the signal file (signal from HPLC export at 214 nm, baseline 600 nm), and the baseline file (a blank run at the same wavelengths, smoothed manually to reduce any noise). Put these in their respective folders (within the HPLC folder)\
 2. Run the code, indicating the # of groups and mass of peptide injected
 
-### If doing Intact Protein Separation:\
+### If doing Intact Protein Separation:
 1. Obtain the vials file (FRAC reg from the HPLC export), the signal file (signal from HPLC export at 280 nm, baseline 600 nm), and the peaks file (Integration HPLC export, at 280 nm. Look at the 3D spectrum to detect and manually unintegrated any non-proteinaceous peaks. e.g. Peaks that don't have maxima at 280 nm). Put these in their respective folders (within the HPLC folder).\
 2. Run the code, indicating the # of groups and mass of protein injected. Play around with the cutoffs and width factors until you get something you like.
 
